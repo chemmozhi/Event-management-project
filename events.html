@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    .hero-section {
+      background-image: url('https://via.placeholder.com/1500x600');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      height: 400px;
+    }
+
+    .hero-section h1 {
+      font-size: 3rem;
+    }
+
+    .event-details {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+    }
+
+    .schedule-section {
+      background-color: #e9ecef;
+      padding: 50px 0;
+    }
+
+    .speakers-section {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+    }
+
+    .cta-section {
+      background-color: #007bff;
+      color: white;
+      padding: 50px 0;
+    }
+
+    .cta-section h2 {
+      font-size: 2.5rem;
+    }
+
+    .cta-section .btn {
+      background-color: #28a745;
+      border: none;
+      padding: 10px 30px;
+      font-size: 1.25rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid" style = "height : 50px">
+ 
+      <a class="navbar-brand" href="#">MELODIE</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="categories.html">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Signup/Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class=" text-center d-flex justify-content-center align-items-center">
+    <div>
+      <h1 style = "color : black">Melodie Event Planeers</h1>
+      <p class="lead" style = "color : black">Join us for an amazing experience</p>
+    </div>
+  </div>
+
+  <section class="event-details text-center">
+    <div class="container">
+      <h2>Event Details</h2>
+      <p class="lead">Date: March 15, 2025</p>
+      <p class="lead">Location: City Convention Center</p>
+      <p>oin us for an amazing experience</p>
+    </div>
+  </section>
+
+  <section class="schedule-section">
+    <div class="container text-center">
+      <h2>Event Schedule</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h4>9:00 AM</h4>
+          <p>Opening Keynote</p>
+        </div>
+        <div class="col-md-4">
+          <h4>11:00 AM</h4>
+          <p>Panel Discussion</p>
+        </div>
+        <div class="col-md-4">
+          <h4>1:00 PM</h4>
+          <p>Lunch</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="speakers-section">
+    <div class="container text-center">
+      <h2>Featured Speakers</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="spider.jpg" class="img-fluid rounded-circle" alt="Speaker 1">
+          <h4>Peter Parker</h4>
+          <p>CEO, Stark industries</p>
+        </div>
+        <div class="col-md-4">
+          <img src="thor.webp" class="img-fluid rounded-circle" alt="Speaker 2" style = "margin-top: 22px;">
+          <h4>Thor</h4>
+          <p>King of Asgard</p>
+        </div>
+        <div class="col-md-4">
+          <img src="jon.webp" class="img-fluid rounded-circle" alt="Speaker 3" style = "margin-top: 22px; height : 200px; width : 340px" >
+          <h4>Jon Snow</h4>
+          <p>King of the North</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section text-center">
+    <div class="container">
+      <h2>Don't Miss Out!</h2>
+      <p class="lead">Register now to secure your spot.</p>
+      <a href="login.html" class="btn">Register Now</a>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container" style="padding:10px">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p style = "color : white">CELEBRATE WITH US.</p>
+        </div>
+  
+        <div class="col-md-4">
+          <h5>Social Media</h5>
+          <ul class="list-unstyled">
+            <li><i class="fa-brands fa-instagram" style="color: white; margin-right: 10px;"></i><a href="#" class="text-white" style= "text-decoration: none;">Instagram</a></li>
+            <li><i class="fa-brands fa-facebook" style = "margin-right: 10px"></i><a href="#" class="text-white" style= "text-decoration: none;">Facebook</a></li>
+            <li style = "margin-right: 20px;"><i class="fa-brands fa-twitter" style = "margin-right: 10px"></i><a href="#" class="text-white" style= "text-decoration: none;">Twitter</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-4">
+          <h5>Contact</h5>
+          <p style = "color : white">AISECT LTD . No-113-A block, First floor , Mena kampala arcade Thiyagaraya Road Pondy bazaar, Chennai-600 017</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="text-center mt-4">
+      <p style = "color : white"> &copy; 2025 Melodie Event Planners. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+text-center text-lg-start bg-body-tertiary text-muted
